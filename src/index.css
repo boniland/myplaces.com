@@ -1,0 +1,51 @@
+* {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+  box-sizing: border-box;      /* Allows us to include the padding and border in an element's total width and height */ 
+  cursor: default;
+}
+
+html, body{
+  margin: 0px;
+  padding: 0px;
+  /* overflow: hidden; */
+}
+html{
+  display: flex;
+  width: calc(100vw);
+  height: calc(100vh);
+  max-width: calc(100vw);
+  max-height: calc(100vh);
+}
+body {
+  font-size: calc(10px + 2vmin);
+  font-family: monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body, .box{
+  display: inherit;
+  flex-grow: 1;
+  width: inherit;
+  max-width: inherit;
+}
+/* ocupa todo el espacio disponible(parent size, por probar) */
+.fill-gap{
+  display: inherit;
+  margin: 0px;
+  padding: 0px;
+  flex-grow: inherit;
+}
+/* html, body{width: 100vw !important; height: 100vh; margin: 0px; padding: 0px;}
+body{display: flex;} */
+#root{width: inherit; display:  flex; flex-direction: column;}
+.row{display: flex;}
+.grow{flex-grow:  1};
+.cell{border: 1px solid #ccc; width:  auto; height: auto; flex-grow: 1;display: flex;align-items: center;justify-content: center;}
+.cell:hover{background: lightcyan;}
+

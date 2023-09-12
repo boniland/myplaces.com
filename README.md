@@ -1,74 +1,70 @@
-# SolidStart
+# Getting Started with Create React App
 
-![Netlify + Solid](https://user-images.githubusercontent.com/43764894/223558736-6cf48156-2316-419d-8be9-e318ecf0e4be.png)
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Available Scripts
 
+In the project directory, you can run:
 
-A Solid Quickstart template that will get you started with everything you need to build a Solid project, powered by [`solid-start`](https://github.com/ryansolid/solid-start/tree/master/packages/solid-start);
+### `npm start`
 
-Click the below button to quickly create a new repo, create a new Netlify project, and deploy!
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-[![Deploy to Netlify Button](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/solid-quickstart?utm_campaign=template-team&utm_source=dtn-button&utm_medium=dtn-button&utm_term=solid-qt-dtn-button&utm_content=solid-qt-dtn-button)
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-## Table of Contents
-- [Project Structure](#project-structure)
-- [Getting Started](#getting-started)
-- [Building](#building)
-- [Deploying using the Netlify CLI](#deploying-using-the-netlify-cli)
+### `npm test`
 
-## Project Structure
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Inside of your Solidjs project, you'll see the following folders and files:
+### `npm run build`
 
-```
-/
-├── public/
-│   └── favicon.ico
-├── src/
-│   ├── components/
-│   │   └── Counter.css
-│   │   └── Counter.tsx
-│   └── routes/
-│       └── [...404].tsx
-│       └── index.tsx
-├── entry-client.tsx
-├── entry-server.tsx
-├── root.css
-├── root.tsx
-├── package.json
-└── vite.config.json
-```
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-## Getting Started
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-If you want to get started locally, you can clone the project, install the dependencies and run the dev command!
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-```
-git clone https://github.com/netlify-templates/solid-quickstart.git
-cd solid-quickstart
-npm install
-npm run dev
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+### `npm run eject`
 
-## Building
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-Solid apps are built with _adapters_, which optimise your project for deployment to different environments.
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-By default, `npm run build` will generate a Node app that you can run with `npm start`. To use a different adapter, add it to the `devDependencies` in `package.json` and specify in your `vite.config.js`.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-## Deploying using the Netlify CLI
-- Install the Netlify CLI globally `npm install netlify-cli -g`
-    
-- Run `npm run build`
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-- Then use the `netlify deploy` for a deploy preview link or `netlify deploy --prod` to deploy to production
+## Learn More
 
-Here are a few other ways you can deploy this template:
-    
-- Use the Netlify CLI's create from template command `netlify sites:create-template solid-quickstart` which will create a repo, Netlify project, and deploy it
-    
-- If you want to utilize continuous deployment through GitHub webhooks, run the Netlify command `netlify init` to create a new project based on your repo or `netlify link` to connect your repo to an existing project
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-Hope this template helps :) Happy coding 👩🏻‍💻!
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

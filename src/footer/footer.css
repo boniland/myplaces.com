@@ -1,0 +1,9 @@
+.footer{
+	display: inherit;
+	flex-direction: row;
+	margin: 10px;
+}
+
+.footer > div {
+	
+}
